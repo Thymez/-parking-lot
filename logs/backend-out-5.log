@@ -1,0 +1,43 @@
+2026-02-05T06:43:14: [dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+2026-02-05T06:43:16: ✅ Database connected successfully
+2026-02-05T06:43:16: ✅ Database optimizations applied (WAL mode, foreign keys enabled)
+2026-02-05T06:43:17: Server running on http://localhost:8091
+2026-02-05T06:43:22: ✅ [WEBSOCKET] Client connected: 4YW5zEegPcJRprcCAAAB | Total clients: 1
+2026-02-05T07:57:47: ✅ [WEBSOCKET] Client connected: nie9LXurmr6xEn_eAAAD | Total clients: 2
+2026-02-05T08:19:52: ❌ [WEBSOCKET] Client disconnected: 4YW5zEegPcJRprcCAAAB | Reason: transport close | Remaining clients: 1
+2026-02-05T10:45:11: ✅ [WEBSOCKET] Client connected: zFYfkACKxbGWxEznAAAF | Total clients: 2
+2026-02-05T10:45:41: ❌ [WEBSOCKET] Client disconnected: zFYfkACKxbGWxEznAAAF | Reason: transport close | Remaining clients: 1
+2026-02-05T10:59:09: ❌ [WEBSOCKET] Client disconnected: nie9LXurmr6xEn_eAAAD | Reason: transport close | Remaining clients: 0
+2026-02-05T10:59:11: ✅ [WEBSOCKET] Client connected: 8PPh-dwtM9pugfc0AAAH | Total clients: 1
+2026-02-05T11:00:54: 🔔 [BACKEND] Emitting vehicle:position_updated: {
+  vehicleId: 3,
+  position: { x: 325, y: 75, rotation: 0 },
+  connectedClients: 1
+}
+2026-02-05T11:09:01: ✅ [WEBSOCKET] Client connected: L72sRpWaGiK5S3AAAAAJ | Total clients: 2
+2026-02-05T11:15:26: ❌ [WEBSOCKET] Client disconnected: L72sRpWaGiK5S3AAAAAJ | Reason: transport close | Remaining clients: 1
+2026-02-05T11:21:00: ✅ [WEBSOCKET] Client connected: 40OuuhroHfOuPi_QAAAL | Total clients: 2
+2026-02-05T11:28:52: ❌ [WEBSOCKET] Client disconnected: 40OuuhroHfOuPi_QAAAL | Reason: transport close | Remaining clients: 1
+2026-02-05T11:42:31: ✅ [WEBSOCKET] Client connected: iXIs5_S0Qi0XRNm8AAAN | Total clients: 2
+2026-02-05T11:43:20: ❌ [WEBSOCKET] Client disconnected: iXIs5_S0Qi0XRNm8AAAN | Reason: client namespace disconnect | Remaining clients: 2
+2026-02-05T11:43:20: ✅ [WEBSOCKET] Client connected: iEU-S2BYiuyeCnr8AAAP | Total clients: 2
+2026-02-05T11:43:22: ❌ [WEBSOCKET] Client disconnected: iEU-S2BYiuyeCnr8AAAP | Reason: client namespace disconnect | Remaining clients: 2
+2026-02-05T11:47:22: ✅ [WEBSOCKET] Client connected: ApuXdk4gP0K-2aVFAAAR | Total clients: 2
+2026-02-05T11:49:04: [dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+2026-02-05T11:49:05: ✅ Database connected successfully
+2026-02-05T11:49:05: ✅ Database optimizations applied (WAL mode, foreign keys enabled)
+2026-02-05T11:49:05: Server running on http://localhost:8091
+2026-02-05T11:49:06: ✅ [WEBSOCKET] Client connected: Dx8Gzk-0CihI0KQBAAAB | Total clients: 1
+2026-02-05T13:48:53: ✅ [WEBSOCKET] Client connected: e_ZFcyLtClsDd_WAAAAD | Total clients: 2
+2026-02-05T13:53:48: ❌ [WEBSOCKET] Client disconnected: e_ZFcyLtClsDd_WAAAAD | Reason: ping timeout | Remaining clients: 1
+2026-02-05T14:00:41: 🔔 [BACKEND] Emitting vehicle:position_updated: {
+  vehicleId: 3,
+  position: { x: 213, y: 112, rotation: 0 },
+  connectedClients: 1
+}
+2026-02-05T14:11:15: ✅ [WEBSOCKET] Client connected: U_U_9woiNsqjuTzPAAAF | Total clients: 2
+2026-02-05T14:16:36: ❌ [WEBSOCKET] Client disconnected: U_U_9woiNsqjuTzPAAAF | Reason: ping timeout | Remaining clients: 1
+2026-02-05T14:24:36: [dotenv@17.2.3] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+2026-02-05T14:24:37: ✅ Database connected successfully
+2026-02-05T14:24:37: ✅ Database optimizations applied (WAL mode, foreign keys enabled)
+2026-02-05T14:24:37: Server running on http://localhost:8091

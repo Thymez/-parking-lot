@@ -1,0 +1,89 @@
+2026-02-02T15:05:02: Export full vehicle logs error: ReferenceError: formatDateTime is not defined
+    at /root/app-survey/server/index.js:1839:27
+    at Array.forEach (<anonymous>)
+    at /root/app-survey/server/index.js:1813:17
+    at Map.forEach (<anonymous>)
+    at /root/app-survey/server/index.js:1778:20
+    at Layer.handle [as handle_request] (/root/app-survey/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/app-survey/node_modules/express/lib/router/route.js:144:13)
+    at requireAdmin (/root/app-survey/server/index.js:72:3)
+    at Layer.handle [as handle_request] (/root/app-survey/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/app-survey/node_modules/express/lib/router/route.js:144:13)
+2026-02-02T15:05:05: Export full vehicle logs error: ReferenceError: formatDateTime is not defined
+    at /root/app-survey/server/index.js:1839:27
+    at Array.forEach (<anonymous>)
+    at /root/app-survey/server/index.js:1813:17
+    at Map.forEach (<anonymous>)
+    at /root/app-survey/server/index.js:1778:20
+    at Layer.handle [as handle_request] (/root/app-survey/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/app-survey/node_modules/express/lib/router/route.js:144:13)
+    at requireAdmin (/root/app-survey/server/index.js:72:3)
+    at Layer.handle [as handle_request] (/root/app-survey/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/app-survey/node_modules/express/lib/router/route.js:144:13)
+2026-02-02T15:09:47: Export full vehicle logs error: ReferenceError: formatDateTime is not defined
+    at /root/app-survey/server/index.js:1839:27
+    at Array.forEach (<anonymous>)
+    at /root/app-survey/server/index.js:1813:17
+    at Map.forEach (<anonymous>)
+    at /root/app-survey/server/index.js:1778:20
+    at Layer.handle [as handle_request] (/root/app-survey/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/app-survey/node_modules/express/lib/router/route.js:144:13)
+    at requireAdmin (/root/app-survey/server/index.js:72:3)
+    at Layer.handle [as handle_request] (/root/app-survey/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/app-survey/node_modules/express/lib/router/route.js:144:13)
+2026-02-03T10:45:39: ❌ [EXPRESS ERROR]: SyntaxError: Expected property name or '}' in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at parse (/root/app-survey/node_modules/body-parser/lib/types/json.js:89:19)
+    at /root/app-survey/node_modules/body-parser/lib/read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (/root/app-survey/node_modules/raw-body/index.js:231:16)
+    at done (/root/app-survey/node_modules/raw-body/index.js:220:7)
+    at IncomingMessage.onEnd (/root/app-survey/node_modules/raw-body/index.js:280:7)
+    at IncomingMessage.emit (node:events:524:28)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  expose: true,
+  statusCode: 400,
+  status: 400,
+  body: '{\\"username\\":\\"admin\\",\\"password\\":\\"admin\\"}',
+  type: 'entity.parse.failed'
+}
+2026-02-04T09:22:29: Export full vehicle logs error: SqliteError: no such column: l.performed_by
+    at Database.prepare (/root/app-survey/node_modules/better-sqlite3/lib/methods/wrappers.js:5:21)
+    at /root/app-survey/server/index.js:1781:24
+    at Layer.handle [as handle_request] (/root/app-survey/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/app-survey/node_modules/express/lib/router/route.js:144:13)
+    at requireAdmin (/root/app-survey/server/index.js:72:3)
+    at Layer.handle [as handle_request] (/root/app-survey/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/app-survey/node_modules/express/lib/router/route.js:144:13)
+    at /root/app-survey/server/index.js:64:5
+    at /root/app-survey/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/root/app-survey/node_modules/jsonwebtoken/verify.js:97:14) {
+  code: 'SQLITE_ERROR'
+}
+2026-02-04T09:22:33: Export full vehicle logs error: SqliteError: no such column: l.performed_by
+    at Database.prepare (/root/app-survey/node_modules/better-sqlite3/lib/methods/wrappers.js:5:21)
+    at /root/app-survey/server/index.js:1781:24
+    at Layer.handle [as handle_request] (/root/app-survey/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/app-survey/node_modules/express/lib/router/route.js:144:13)
+    at requireAdmin (/root/app-survey/server/index.js:72:3)
+    at Layer.handle [as handle_request] (/root/app-survey/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/app-survey/node_modules/express/lib/router/route.js:144:13)
+    at /root/app-survey/server/index.js:64:5
+    at /root/app-survey/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/root/app-survey/node_modules/jsonwebtoken/verify.js:97:14) {
+  code: 'SQLITE_ERROR'
+}
+2026-02-04T09:23:23: Export full vehicle logs error: SqliteError: no such column: l.performed_by
+    at Database.prepare (/root/app-survey/node_modules/better-sqlite3/lib/methods/wrappers.js:5:21)
+    at /root/app-survey/server/index.js:1781:24
+    at Layer.handle [as handle_request] (/root/app-survey/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/app-survey/node_modules/express/lib/router/route.js:144:13)
+    at requireAdmin (/root/app-survey/server/index.js:72:3)
+    at Layer.handle [as handle_request] (/root/app-survey/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/app-survey/node_modules/express/lib/router/route.js:144:13)
+    at /root/app-survey/server/index.js:64:5
+    at /root/app-survey/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/root/app-survey/node_modules/jsonwebtoken/verify.js:97:14) {
+  code: 'SQLITE_ERROR'
+}
