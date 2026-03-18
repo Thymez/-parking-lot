@@ -42,8 +42,8 @@ npm start
 
 ## Default Login
 
-- Username: admin
-- Password: admin123
+- Username: user
+- Password: pass
 
 ## Database Schema
 
